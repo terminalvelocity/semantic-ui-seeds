@@ -9,7 +9,7 @@ module.exports = {
 
     const fontExtensions = ['.eot','.otf','.svg','.ttf','.woff','.woff2'];
     fontExtensions.forEach((ext) => {
-      app.import(`${app.bowerDirectory}/semantic-ui/dist/themes/default/assets/fonts/icons+${ext}`, { destDir: "assets/themes/default/assets/fonts" })
+      app.import(`${app.bowerDirectory}/semantic-ui/dist/themes/default/assets/fonts/icons${ext}`, { destDir: "assets/themes/default/assets/fonts" })
     })
   }
 };
