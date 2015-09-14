@@ -8,6 +8,6 @@ module.exports = {
   },
 
   afterInstall: function () {
-    return this.addBowerPackageToProject('semantic-ui', '2.1.4');
+    return this.addBowerPackageToProject('semantic-ui');
   }
 };
