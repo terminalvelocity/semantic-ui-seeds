@@ -1,6 +1,6 @@
 {
   "name": "semantic-ui-seeds",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Install and configure Semantic UI for a Seeds.js application (Ember Frontend).",
   "directories": {
     "doc": "doc",
