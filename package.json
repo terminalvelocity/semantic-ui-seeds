@@ -1,7 +1,7 @@
 {
   "name": "semantic-ui-seeds",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Install and configure Semantic UI for a Seeds.js application (Ember Frontend).",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -38,7 +38,11 @@
     "ember-try": "0.0.6"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "semantic",
+    "ui",
+    "seeds",
+    "ember"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.3"
