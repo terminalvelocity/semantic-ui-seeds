@@ -5,19 +5,12 @@ module.exports = {
   name: 'semantic-ui-seeds'
 
   included: function (app) {
-    app.import({
-      development: 'bower_components/semantic-ui/dist/semantic.css',
-      production: 'bower_components/semantic-ui/dist/semantic.min.css'
-    });
-
-    app.import({
-      development: 'bower_components/semantic-ui/dist/semantic.js',
-      production: 'bower_components/semantic-ui/dist/semantic.min.js'
-    });
+    app.import(app.bowerDirectory + "/semantic-ui/dist/semantic.css")
+    app.import(app.bowerDirectory + "/semantic-ui/dist/semantic.js")
 
     var fontExtensions = ['.eot','.otf','.svg','.ttf','.woff','.woff2'];
     for (var i = fontExtensions.length - 1; i >= 0; i--) {
-      app.import('bower_components/semantic-ui/dist/themes/default/assets/fonts/icons'+fontExtensions[i], { destDir: 'assets/themes/default/assets/fonts' });
+      app.import(app.bowerDirectory + "bower_components/semantic-ui/dist/themes/default/assets/fonts/icons"+fontExtensions[i], { destDir: "assets/themes/default/assets/fonts" });
     };
   }
 };
