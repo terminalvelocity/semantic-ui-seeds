@@ -9,7 +9,8 @@
   "scripts": {
     "build": "ember build",
     "start": "ember server",
-    "test": "ember try:testall"
+    "test": "ember try:testall",
+    "prepublish": "babel index.es6 -o index.js"
   },
   "repository": "",
   "engines": {
@@ -18,6 +19,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "babel": "^5.8.23",
     "broccoli-asset-rev": "^2.1.2",
     "ember-ajax": "0.6.2",
     "ember-cli": "1.13.8",
