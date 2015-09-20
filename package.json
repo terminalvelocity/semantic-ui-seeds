@@ -39,6 +39,10 @@
     "ember-export-application-global": "^1.0.3",
     "ember-resolver": "^2.0.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "terminalvelocity/semantic-ui-seeds"
+  },
   "keywords": [
     "ember-addon",
     "semantic",
